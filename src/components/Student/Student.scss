@@ -1,0 +1,88 @@
+.student-page{
+    display: flex;
+    font-family: Sora;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 60px;
+    color:#000000;
+    .logo-div{
+        width: 134px;
+        height: 31px;
+        padding: 0px 9px 0px 9px;
+        gap: 7px;
+        border-radius: 24px 0px 0px 0px;
+        opacity: 0px;
+    }
+    .get-start-text-div{
+        width: 737px;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 50.4px;
+        text-align: center;
+        .bold-text{
+            font-weight: 600;
+        }
+        .dis-bold-text{
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 25px;
+        }
+        .discription-div{
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 23.94px;
+            color: #000000;
+        }
+    }
+    .enter-name-div{
+        width: 505px;
+        margin: 10px 40px;
+        .header-div{ 
+            text-align: center;     
+            margin-bottom: 8px;
+            .heading-text{
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 25.2px;
+                text-align: left;
+            }
+        }
+       
+        .text-box-div{
+            position: relative;
+            width: 507px;
+            height: 30px;
+            border-radius: 2px;
+            font-size: large;
+            border: none;
+            resize: none;
+            // height: 174px;
+            gap: 0px;
+            border-radius: 2px 0px 0px 0px;
+            opacity: 0px;
+            background: #F2F2F2;
+            .words-number{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                margin: 8px 8px;
+
+            }
+        }
+    }
+    .primary-button{
+        margin-top: 40px;
+        width: 233.93px;
+        height: 57.58px;
+        cursor: pointer;
+        padding: 17px 70px 17px 70px;
+        gap: 10px;
+        border-radius: 34px;
+        opacity: 0px;
+        color: #ffffff;
+        background: linear-gradient(99.18deg, #8F64E1 -46.89%, #1D68BD 223.45%);
+    }
+   
+}

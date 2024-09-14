@@ -1,0 +1,80 @@
+.landing-page{
+    font-family: sora;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color:#000000;
+    .logo-div{
+        width: 134px;
+        height: 31px;
+        // top: 195px;
+        // left: 656.47px;
+        padding: 0px 9px 0px 9px;
+        gap: 7px;
+        border-radius: 24px 0px 0px 0px;
+        opacity: 0px;
+    }
+    .welcome-text-div{
+        font-family: Sora;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 50.4px;
+        text-align: center;
+        .bold-text{
+            font-weight: 600;
+        }
+        .discription-div{
+            font-family: Sora;
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 23.94px;
+            color: #00000080;
+            opacity: 0.4;
+        }
+    }
+    .card-options-layout{
+        margin:50px;
+        display: flex;
+        flex-direction: row;
+        gap:18px;
+        .select-card{
+            cursor: pointer;
+            width:300px;
+            height: 100px;
+            padding: 15px 17px 15px 25px;
+            border-radius: 10px;
+            border: 0.5px solid black;
+            opacity: 0px;
+            .card-heading-text{
+                font-size: 23px;
+                font-weight: 600;
+                line-height: 28.98px;
+                text-align: left;
+            }
+            .card-discription-text{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20.16px;
+                text-align: left;
+            }
+        }
+        .active{
+            border: 3px solid #8F64E1;
+        }
+    }
+    .button{
+        width: 233.93px;
+        height: 57.58px;
+        cursor: pointer;
+        // top: 598px;
+        // left: 633px;
+        padding: 17px 70px 17px 70px;
+        gap: 10px;
+        border-radius: 34px;
+        opacity: 0px;
+        color: #ffffff;
+        background: linear-gradient(99.18deg, #8F64E1 -46.89%, #1D68BD 223.45%);
+    }
+}

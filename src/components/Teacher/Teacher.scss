@@ -1,0 +1,145 @@
+.teacher-page{
+    font-family: sora;
+    margin-top: 100px;
+    margin-left: 60px;
+    color:#000000;
+    .logo-div{
+        width: 134px;
+        height: 31px;
+        // top: 195px;
+        // left: 656.47px;
+        padding: 0px 9px 0px 9px;
+        gap: 7px;
+        border-radius: 24px 0px 0px 0px;
+        opacity: 0px;
+    }
+    .get-start-text-div{
+        font-family: Sora;
+        width: 737px;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 50.4px;
+        text-align: start;
+        .bold-text{
+            font-weight: 600;
+        }
+        .discription-div{
+            font-family: Sora;
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 23.94px;
+            color: #00000080;
+        }
+    }
+    .enter-question-div{
+        width: 865px;
+        margin: 10px 0px;
+        .header-div{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            .heading-text{
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 25.2px;
+                text-align: left;
+            }
+            .drop-down{
+                background: #F1F1F1;
+            }
+        }
+       
+        .text-box-div{
+            position: relative;
+            width: 865px;
+            height: 174px;
+            gap: 0px;
+            border-radius: 2px 0px 0px 0px;
+            opacity: 0px;
+            background: #F2F2F2;
+            .words-number{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                margin: 8px 8px;
+
+            }
+        }
+    }
+    .edit-options-wrapper{
+        .edit-options-div{
+            width: 700px;
+            display: flex;
+            justify-content: space-between;
+            .heading-text{
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 22.68px;
+                text-align: left;
+                margin: 10px;
+            }
+        }
+        .option-div{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap:8px;
+            margin-bottom: 10px;
+            .option-number{
+               background-color: #8F64E1;
+               width: 20px;
+               height: 20px;
+               border-radius: 50%;
+               color: #ffffff;
+            }
+            .option-text-area{
+                width: 500px;
+                resize: none;
+                text-align: start;
+                background: #F2F2F2;
+                font-size: large;
+                border-radius: 4px;
+                padding: 8px 0px;
+            }
+            .radio-button{
+                margin-left: 60px;
+                color:#8F64E1
+            }
+        }
+    }
+    .secondry-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        width: 169px;
+        height:45px;
+        padding: 10px;
+        border-radius: 10px;
+        // border: 1px 0px 0px 0px;
+        border: 1px solid #7451B6;
+        color:#7451B6;
+        background-color: #ffffff;
+        opacity: 0px;
+    }
+    .footer-div{
+        position: fixed;
+        bottom: 0;
+        right:0;
+        margin: 20px 20px;
+        .primary-button{
+            width: 233.93px;
+            height: 57.58px;
+            cursor: pointer;
+            // top: 598px;
+            // left: 633px;
+            padding: 17px 70px 17px 70px;
+            gap: 10px;
+            border-radius: 34px;
+            opacity: 0px;
+            color: #ffffff;
+            background: linear-gradient(99.18deg, #8F64E1 -46.89%, #1D68BD 223.45%);
+        }
+    }
+   
+}
